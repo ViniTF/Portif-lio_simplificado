@@ -1,0 +1,199 @@
+/*HEADER*/
+
+.logo {
+    height: 70px;
+    display: flex;
+}
+
+.logo .img-logo {
+    width: 50%;
+    margin-left: 160px;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.logo .img-logo img {
+    width: 152px;
+}
+
+.logo .information-logo{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    margin-right: 160px;
+}
+
+.information-logo a{
+    text-decoration: none;
+}
+
+/*INDEX - MAIN*/
+
+.profile {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 64px 10% 64px;
+}
+
+.profile .img-profile img{
+    width: 152px;
+}
+
+.profile .about-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.profile .about-profile h1{
+    font-size: 64px;
+}
+
+.profile .information-profile img{
+   padding: 8px; 
+}
+
+.information-profile a img{
+    width: 40px;
+}
+
+/*ABOUT - MAIN*/
+
+.about{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    margin: 64px 10% 64px;
+}
+
+.about h1{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+/*RESUME - MAIN*/
+
+.resume {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    margin: 64px 10% 64px;
+}
+
+.resume h1{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .logo{
+        max-width: 480px;
+    }
+
+    .logo .img-logo{
+        max-width: 50%;
+        margin: 8px auto auto auto;
+        justify-content: space-around;
+    }
+
+    .logo .img-logo img {
+        width: 120px;
+    }
+
+    .logo .information-logo{
+        max-width: 50%;
+        margin: auto 16px auto auto;
+        gap: 16px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .logo .information-logo a{
+        font-size: 14px;
+    }
+
+    .profile .img-profile img{
+        width: 120px;
+    }
+
+    .profile .about-profile{
+        text-align: center;
+    }
+
+    .profile .about-profile h1{
+        font-size: 32px;
+    }
+
+    .profile .about-profile p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .logo .img-logo{
+        max-width: 50%;
+        margin: 8px auto auto auto;
+        justify-content: space-around;
+    }
+
+    .logo .img-logo img {
+        width: 120px;
+    }
+
+    .logo .information-logo{
+        max-width: 50%;
+        margin: auto 16px auto auto;
+        gap: 16px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .profile .img-profile img{
+        width: 120px;
+    }
+
+    .profile .about-profile h1{
+        font-size: 36px;
+    }
+
+    .profile .about-profile p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .logo .img-logo{
+        max-width: 50%;
+        margin: 8px auto auto auto;
+        justify-content: space-around;
+    }
+    
+    .logo .information-logo{
+        max-width: 50%;
+        margin: auto 16px auto auto;
+        justify-content: center;
+        text-align: center;
+    }   
+    
+    .profile .about-profile h1{
+        font-size: 40px;
+    }
+
+    .profile .about-profile p{
+        font-size: 16px;
+    }
+}

@@ -1,4 +1,4 @@
-Olá muundo,
+Olá mundo,
 
 Esse é o meu primeiro site feito sozinho, usando apenas meus conhecimentos em HTML e CSS. 
 
